@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5rem;
+}
+
+.container {
+  margin: auto;
+}
+
+.primary-text {
+  color: #498d54;
+}
+
+#main-header {
+  border-bottom: 0.3rem solid #498d54;
+}
+
+#navbar {
+  text-transform: uppercase;
+}
+#navbar li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 1.1rem;
+}
+#navbar a {
+  text-decoration: none;
+  color: #6e6e6e;
+}
+#navbar a:hover {
+  color: #498d54;
+}
+
+#showcase {
+  background: url("../img/computer.jpg") no-repeat center center;
+  border-bottom: 0.3rem solid #498d54;
+  margin-bottom: 0.3rem;
+}
+#showcase .row {
+  height: 600px;
+}
+#showcase h1 {
+  margin: 0;
+  color: white;
+}
+#showcase p {
+  color: white;
+}
+#showcase .showcase-content {
+  background-color: black;
+  border-radius: 0.9rem;
+  margin: auto;
+  opacity: 0.9;
+  padding: 5rem;
+  width: 50%;
+  height: 25vh;
+}
+#showcase .showcase-content div {
+  text-align: center;
+  margin: auto;
+  width: 40vw;
+}
+
+#features {
+  margin-bottom: 6rem;
+}
+#features h3 {
+  font-size: 1.6rem;
+  color: #498d54;
+}
+#features p {
+  font-size: 1.1rem;
+}
+#features .feature h4 {
+  font-size: 1.4rem;
+  color: #498d54;
+}
+#features .feature p {
+  font-size: 0.8rem;
+}
+
+#subheader {
+  font-size: 1.5rem;
+}
+
+#page {
+  margin-bottom: 7rem;
+}
+
+#info {
+  background: #000000;
+  padding: 2rem;
+}
+#info ul {
+  font-size: 1.4rem;
+}
+#info h2 {
+  color: #498d54;
+}
+#info ul {
+  list-style-type: none;
+  color: white;
+}
+
+#company {
+  background-color: black;
+  padding: 4rem;
+}
+#company h4 {
+  font-size: 1.3rem;
+  color: #498d54;
+}
+#company ul,
+#company p {
+  color: white;
+  list-style: none;
+}
+#company input[type=email] {
+  padding: 0.6rem;
+}
+#company button {
+  padding: 0.7rem;
+  background-color: #c0c0c0;
+  border: 0.1rem solid #498d54;
+  color: #498d54;
+}
+
+.services h3 {
+  font-size: 1.4rem;
+}
+.services ul {
+  list-style: none;
+}
+.services li {
+  padding: 2rem;
+}
+.services li:nth-child(odd) {
+  background-color: gray;
+  color: white;
+}
+.services li:nth-child(even) {
+  background-color: #498d54;
+  color: white;
+}
+
+.contact {
+  background-color: black;
+  color: white;
+}
+.contact input {
+  padding: 1rem;
+  border-bottom: 0.2rem solid #498d54;
+}
+.contact button {
+  padding: 0.7rem;
+  background-color: #c0c0c0;
+  border: 0.1rem solid #498d54;
+  color: #498d54;
+}
+
+#main-footer {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 40rem) {
+  #showcase h1 {
+    font-size: 0.9rem;
+    padding: 0;
+  }
+
+  #showcase .showcase-content {
+    height: 50vh;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
